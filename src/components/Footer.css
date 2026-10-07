@@ -1,13 +1,46 @@
 footer {
+  position: relative;
+
   padding: 25px 20px;
 
-  background: #111827;
+  background:
+    linear-gradient(
+      135deg,
+      #171126,
+      #261a3d,
+      #163f43
+    );
 
-  color: #cbd5e1;
+  color: #d8d1e3;
 
   text-align: center;
 
-  border-top: 1px solid #1e293b;
+  border-top: 1px solid rgba(168, 85, 247, 0.25);
+
+  box-shadow:
+    0 -6px 20px rgba(45, 27, 70, 0.08);
+}
+
+footer::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 15%;
+  right: 15%;
+
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--violet),
+    var(--cyan),
+    transparent
+  );
+
+  opacity: 0.8;
 }
 
 footer p {
@@ -16,9 +49,14 @@ footer p {
   font-size: 14px;
 
   line-height: 1.6;
+
+  color: #c9c1d6;
+
+  letter-spacing: 0.2px;
 }
 
 @media (max-width: 768px) {
+
   footer {
     padding: 22px 15px;
   }

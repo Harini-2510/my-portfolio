@@ -12,7 +12,7 @@ function Certifications() {
 
           <p>Course Completion Certificate</p>
           <a
-            href="/Certificates/course%20complete%20certificate.pdf"
+            href="https://lnkd.in/p/gZs7rawr"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ function Certifications() {
 
           <p>Internship Completion Certificate</p>
           <a
-            href="/Certificates/internship%20complete%20certificate.pdf"
+            href="https://lnkd.in/p/gpDVDQbM"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ function Certifications() {
           <h3>NPTEL – Data Mining</h3>
 
           <a
-            href="/Certificates/nptel%20certificate.pdf"
+            href="https://lnkd.in/p/gRamgdpH"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +50,7 @@ function Certifications() {
 
           <p>Project Completion Certificate</p>
           <a
-            href="/Certificates/project%20complete%20certificate.pdf"
+            href="https://lnkd.in/p/gr8emKDU"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,7 +62,7 @@ function Certifications() {
           <h3>Thiranex – Data Analytics</h3>
 
           <a
-            href="/Certificates/thiranex%20certificate.pdf"
+            href="https://lnkd.in/p/g-eF9nTg"
             target="_blank"
             rel="noopener noreferrer"
           >

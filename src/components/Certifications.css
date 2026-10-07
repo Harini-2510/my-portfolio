@@ -3,13 +3,13 @@
 ================================ */
 
 #certifications {
-  padding: 80px 10%;
+  padding: 80px 100px;
 
   background:
     linear-gradient(
       135deg,
-      #f5f3ff,
-      #f8faff
+      #f8f4ff,
+      #faf7ff
     );
 }
 
@@ -18,7 +18,7 @@
 
   margin-bottom: 45px;
 
-  color: #172033;
+  color: var(--text-dark);
 
   font-size: 36px;
 }
@@ -42,14 +42,19 @@
 
   padding: 28px;
 
-  background: #ffffff;
+  background:
+    linear-gradient(
+      145deg,
+      #ffffff,
+      #faf7ff
+    );
 
   border-radius: 16px;
 
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--border);
 
   box-shadow:
-    0 8px 24px rgba(30, 41, 59, 0.08);
+    0 8px 24px var(--shadow);
 
   overflow: hidden;
 
@@ -72,19 +77,19 @@
 
   background: linear-gradient(
     90deg,
-    #6366f1,
-    #8b5cf6,
-    #06b6d4
+    var(--violet),
+    var(--indigo),
+    var(--cyan)
   );
 }
 
 .certificate-card:hover {
   transform: translateY(-7px);
 
-  border-color: #c7d2fe;
+  border-color: #d8b4fe;
 
   box-shadow:
-    0 16px 35px rgba(99, 102, 241, 0.16);
+    0 16px 35px var(--shadow-hover);
 }
 
 
@@ -93,7 +98,7 @@
 .certificate-card h3 {
   margin: 5px 0 12px;
 
-  color: #172033;
+  color: var(--text-dark);
 
   font-size: 20px;
 }
@@ -104,7 +109,7 @@
 .certificate-card p {
   margin: 8px 0;
 
-  color: #475569;
+  color: var(--text);
 
   line-height: 1.6;
 }
@@ -119,9 +124,9 @@
 
   padding: 8px 16px;
 
-  color: #6366f1;
+  color: var(--indigo);
 
-  border: 1px solid #c7d2fe;
+  border: 1px solid #d8b4fe;
 
   border-radius: 8px;
 
@@ -134,19 +139,27 @@
   transition:
     background 0.3s ease,
     color 0.3s ease,
-    transform 0.3s ease;
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .certificate-card a:hover {
-  color: #ffffff;
+  color: var(--white);
 
   background: linear-gradient(
     135deg,
-    #6366f1,
-    #8b5cf6
+    var(--indigo),
+    var(--violet),
+    var(--cyan)
   );
 
+  border-color: transparent;
+
   transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 18px rgba(124, 58, 237, 0.25);
 }
 
 

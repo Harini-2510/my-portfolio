@@ -3,27 +3,27 @@
 ================================ */
 
 :root {
-  --navy: #111827;
-  --navy-light: #1e293b;
+  --navy: #171126;
+  --navy-light: #261a3d;
 
-  --indigo: #6366f1;
-  --violet: #8b5cf6;
-  --cyan: #06b6d4;
-  --cyan-light: #22d3ee;
+  --indigo: #7c3aed;
+  --violet: #a855f7;
+  --cyan: #14b8a6;
+  --cyan-light: #2dd4bf;
 
-  --text-dark: #172033;
-  --text: #475569;
-  --text-light: #64748b;
+  --text-dark: #1f1733;
+  --text: #5b526b;
+  --text-light: #7c718c;
 
   --white: #ffffff;
 
-  --soft-bg: #f5f7ff;
-  --lavender-bg: #f5f3ff;
+  --soft-bg: #faf7ff;
+  --lavender-bg: #f7f2ff;
 
-  --border: #e2e8f0;
+  --border: #e6dff0;
 
-  --shadow: rgba(30, 41, 59, 0.10);
-  --shadow-hover: rgba(99, 102, 241, 0.20);
+  --shadow: rgba(45, 27, 70, 0.10);
+  --shadow-hover: rgba(124, 58, 237, 0.20);
 }
 
 
@@ -40,8 +40,9 @@ nav {
 
   background: linear-gradient(
     135deg,
-    #111827,
-    #1e1b4b
+    #171126,
+    #32154f,
+    #163f43
   );
 
   color: var(--white);
@@ -50,7 +51,7 @@ nav {
   top: 0;
   z-index: 1000;
 
-  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.18);
+  box-shadow: 0 4px 20px rgba(30, 15, 45, 0.25);
 }
 
 nav h2 {
@@ -63,7 +64,8 @@ nav h2 {
   background: linear-gradient(
     90deg,
     #ffffff,
-    #67e8f9
+    #c4b5fd,
+    #5eead4
   );
 
   -webkit-background-clip: text;
@@ -80,7 +82,7 @@ nav div {
 nav a {
   position: relative;
 
-  color: #e2e8f0;
+  color: #eee7f7;
 
   text-decoration: none;
 
@@ -102,7 +104,7 @@ nav a::after {
 
   background: linear-gradient(
     90deg,
-    var(--cyan),
+    var(--cyan-light),
     var(--violet)
   );
 
@@ -138,12 +140,12 @@ nav a:hover::after {
   background:
     radial-gradient(
       circle at 85% 20%,
-      rgba(99, 102, 241, 0.12),
+      rgba(168, 85, 247, 0.14),
       transparent 30%
     ),
     radial-gradient(
       circle at 15% 80%,
-      rgba(6, 182, 212, 0.10),
+      rgba(20, 184, 166, 0.12),
       transparent 28%
     ),
     #ffffff;
@@ -202,8 +204,8 @@ nav a:hover::after {
   background:
     linear-gradient(
       135deg,
-      #f8faff,
-      #f5f3ff
+      #fbf9ff,
+      #f6f1ff
     );
 }
 
@@ -235,7 +237,7 @@ nav a:hover::after {
 
   padding: 22px 25px;
 
-  border-left: 5px solid var(--indigo);
+  border-left: 5px solid var(--violet);
 
   border-radius: 12px;
 
@@ -292,7 +294,7 @@ nav a:hover::after {
   background: linear-gradient(
     145deg,
     #ffffff,
-    #f8faff
+    #faf7ff
   );
 
   border: 1px solid var(--border);
@@ -330,7 +332,7 @@ nav a:hover::after {
 
   background: linear-gradient(
     90deg,
-    var(--indigo),
+    var(--violet),
     var(--cyan)
   );
 }
@@ -338,7 +340,7 @@ nav a:hover::after {
 #skills li:hover {
   transform: translateY(-7px);
 
-  border-color: #c7d2fe;
+  border-color: #d8b4fe;
 
   box-shadow: 0 14px 30px var(--shadow-hover);
 }
@@ -354,8 +356,8 @@ nav a:hover::after {
   background:
     linear-gradient(
       135deg,
-      #f5f7ff,
-      #f8f7ff
+      #f8f4ff,
+      #faf7ff
     );
 }
 
@@ -416,7 +418,7 @@ nav a:hover::after {
 #projects > div:hover {
   transform: translateY(-6px);
 
-  border-color: #c7d2fe;
+  border-color: #d8b4fe;
 
   box-shadow: 0 16px 35px var(--shadow-hover);
 }
@@ -453,7 +455,8 @@ nav a:hover::after {
   background: linear-gradient(
     135deg,
     var(--indigo),
-    var(--violet)
+    var(--violet),
+    var(--cyan)
   );
 
   font-size: 14px;
@@ -468,7 +471,7 @@ nav a:hover::after {
 #projects a:hover {
   transform: translateY(-2px);
 
-  box-shadow: 0 7px 18px rgba(99, 102, 241, 0.30);
+  box-shadow: 0 7px 18px rgba(124, 58, 237, 0.30);
 }
 
 
@@ -482,25 +485,25 @@ nav a:hover::after {
   background:
     radial-gradient(
       circle at 15% 20%,
-      rgba(99, 102, 241, 0.12),
+      rgba(168, 85, 247, 0.14),
       transparent 30%
     ),
     radial-gradient(
       circle at 85% 80%,
-      rgba(6, 182, 212, 0.10),
+      rgba(20, 184, 166, 0.12),
       transparent 30%
     ),
     linear-gradient(
       135deg,
-      #f5f3ff,
-      #eefcff
+      #f6f1ff,
+      #ecfffc
     );
 
   color: var(--text-dark);
 
   text-align: center;
 
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid #e6dff0;
 }
 
 #contact h2 {
@@ -536,7 +539,7 @@ nav a:hover::after {
 
   padding: 10px 20px;
 
-  border: 1px solid #c7d2fe;
+  border: 1px solid #d8b4fe;
 
   border-radius: 8px;
 
@@ -555,7 +558,8 @@ nav a:hover::after {
   background: linear-gradient(
     135deg,
     var(--indigo),
-    var(--violet)
+    var(--violet),
+    var(--cyan)
   );
 
   border-color: transparent;
@@ -563,7 +567,7 @@ nav a:hover::after {
   transform: translateY(-3px);
 
   box-shadow:
-    0 8px 20px rgba(99, 102, 241, 0.20);
+    0 8px 20px rgba(124, 58, 237, 0.20);
 }
 
 #contact p a {

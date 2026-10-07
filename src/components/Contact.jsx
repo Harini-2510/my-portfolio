@@ -10,12 +10,7 @@ function Contact() {
         </a>
       </p>
 
-      <p>
-        Phone:{" "}
-        <a href="tel:+917339458074">
-          +91 7339458074
-        </a>
-      </p>
+     
 
      <div>
   <a
